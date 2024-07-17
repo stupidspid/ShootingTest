@@ -66,6 +66,9 @@
     <Compile Include="Assets\Scripts\Data\EnemyData.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Bullet\BulletSpawner.cs" />
+    <Compile Include="Assets\Scripts\Mobs\MobController.cs" />
+    <Compile Include="Assets\Scripts\Data\MobData.cs" />
+    <Compile Include="Assets\Scripts\Mobs\MobSpawner.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

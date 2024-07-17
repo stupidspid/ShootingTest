@@ -31,10 +31,10 @@ public class EnemySpawner : MonoBehaviour
     private void Start()
     {
         _poolObjects.Register(_enemyFactory, transform);
-        StartCoroutine(SpawnMobs());
+        StartCoroutine(SpawnEnemies());
     }
 
-    private IEnumerator SpawnMobs()
+    private IEnumerator SpawnEnemies()
     {
         while (this)
         {
