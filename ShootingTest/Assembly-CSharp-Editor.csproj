@@ -795,11 +795,11 @@
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -810,8 +810,8 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -822,8 +822,14 @@
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
       <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
@@ -848,12 +854,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>D:\Unity\ShootingTest\ShootingTest\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

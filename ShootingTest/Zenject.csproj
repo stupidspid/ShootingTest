@@ -50,10 +50,10 @@
     <Compile Include="Assets\Plugins\Zenject\Source\Install\IInstaller.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Providers\IFactoryProvider.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Install\MonoInstaller.cs" />
-    <Compile Include="Assets\Plugins\Zenject\Source\Providers\MethodProviderUntyped.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Internal\MiscExtensions.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Providers\ComponentProviders\GetFromPrefabComponentProvider.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorDynamicContext.cs" />
+    <Compile Include="Assets\Plugins\Zenject\Source\Providers\MethodProviderUntyped.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\BindInfo\GameObjectCreationParameters.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\SignalExtensions.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Factories\KeyedFactory.cs" />
@@ -159,8 +159,8 @@
     <Compile Include="Assets\Plugins\Zenject\Source\Factories\Pooling\PoolFactory.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorUtil.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Providers\SubContainerDependencyProvider.cs" />
-    <Compile Include="Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\SignalTickPriorityCopyBinder.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\SampleGame2 (Advanced)\Scripts\Installers\GameSettingsInstaller.cs" />
+    <Compile Include="Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\SignalTickPriorityCopyBinder.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Main\IInstantiator.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Runtime\InitializableManager.cs" />
