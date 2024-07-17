@@ -13,7 +13,8 @@ public class GameInstaller : MonoInstaller
         Container.Bind<SpawnAroundService>().AsSingle();
         Container.BindInterfacesTo<EnemyController>().AsSingle();
         Container.BindFactory<EnemyController, EnemyFactory>().FromComponentInNewPrefab(enemy);
-        Container.Bind<BulletPool>().AsSingle();
+        Container.Bind<PoolObjects<BulletController,BulletFactory>>().AsSingle();
+        Container.Bind<PoolObjects<EnemyController,EnemyFactory>>().AsSingle();
         Container.Bind<GunController>().FromComponentInHierarchy().AsSingle();
     }
 }

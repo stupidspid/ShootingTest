@@ -10,23 +10,17 @@ public class BulletController : MonoBehaviour
     
     private Transform _targetTransform;
     private SignalBus _signalBus;
-    private BulletPool _bulletPool;
+    private PoolObjects<BulletController,BulletFactory> poolObjects;
     private GunController _gunController; 
-
-    public bool IsActive
-    {
-        get => gameObject.activeSelf;
-        set => gameObject.SetActive(value);
-    }
 
     public Quaternion Rotation { get; set; }
 
     [Inject]
-    private void Construct(SignalBus signalBus, BulletPool bulletPool, GunController gunController)
+    private void Construct(SignalBus signalBus, PoolObjects<BulletController,BulletFactory> poolObjects, GunController gunController)
     {
         _signalBus = signalBus;
         _signalBus.Subscribe<ShootToEnemySignal>(GetShootParams);
-        _bulletPool = bulletPool;
+        this.poolObjects = poolObjects;
         _gunController = gunController;
     }
 
@@ -70,6 +64,6 @@ public class BulletController : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        _bulletPool.DespawnBullet(this);
+        poolObjects.Despawn(this);
     }
 }

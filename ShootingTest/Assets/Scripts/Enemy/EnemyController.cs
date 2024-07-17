@@ -9,13 +9,13 @@ public class EnemyController : MonoBehaviour, IDamagable
     [SerializeField] private SpriteRenderer icon;
 
     private PlayerController _playerController;
-    private BulletPool _bulletPool;
+    private PoolObjects<EnemyController, EnemyFactory> _poolObjects;
     
     [Inject]
-    private void Construct(PlayerController playerController, BulletPool bulletPool)
+    private void Construct(PlayerController playerController, PoolObjects<EnemyController, EnemyFactory> poolObjects)
     {
         _playerController = playerController;
-        _bulletPool = bulletPool;
+        _poolObjects = poolObjects;
     }
     
     public int Health { get; private set; }
@@ -44,8 +44,7 @@ public class EnemyController : MonoBehaviour, IDamagable
         Health -= damage;
         if (Health <= 0)
         {
-            Destroy(gameObject);
-            _bulletPool.DespawnAll();
+            _poolObjects.Despawn(this);
         }
     }
 }

@@ -9,27 +9,28 @@ public class TargetingSystem : MonoBehaviour
     [SerializeField] private LayerMask targetLayer;
 
     private SignalBus _signalBus;
-    private BulletPool _bulletPool;
+    private PoolObjects<BulletController,BulletFactory> _poolObjects;
     private GunController _gunController;
+    private BulletFactory _bulletFactory;
 
     [Inject]
-    private void Construct(SignalBus signalBus, BulletPool bulletPool, GunController gunController)
+    private void Construct(SignalBus signalBus, 
+        PoolObjects<BulletController,BulletFactory> poolObjects, 
+        GunController gunController,
+        BulletFactory bulletFactory)
     {
-        _bulletPool = bulletPool;
+        _bulletFactory = bulletFactory;
+        _poolObjects = poolObjects;
         _gunController = gunController;
         _signalBus = signalBus;
         _signalBus.Subscribe<ShootSignal>(ShootToEnemy);
     }
 
-    private void Start()
-    {
-        _bulletPool.RegisterBullet();
-    }
-
     private void ShootToEnemy()
     {
         var targetEnemy = GetNearestTarget();
-        _bulletPool.SpawnBullet(_gunController.BulletAmount);
+        for(int i = 0; i < _gunController.BulletAmount; i++)
+            _poolObjects.Spawn();
         _signalBus.Fire(new ShootToEnemySignal(targetEnemy));
     }
 

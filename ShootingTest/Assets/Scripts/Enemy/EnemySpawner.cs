@@ -16,16 +16,21 @@ public class EnemySpawner : MonoBehaviour
     
     private PlayerController _playerController;
     private EnemyFactory _enemyFactory;
+    private PoolObjects<EnemyController, EnemyFactory> _poolObjects;
     
     [Inject]
-    private void Constructor(PlayerController playerController, EnemyFactory enemyFactory)
+    private void Constructor(PlayerController playerController, 
+        EnemyFactory enemyFactory,
+        PoolObjects<EnemyController, EnemyFactory> poolObjects)
     {
         _playerController = playerController;
         _enemyFactory = enemyFactory;
+        _poolObjects = poolObjects;
     }
 
     private void Start()
     {
+        _poolObjects.Register(_enemyFactory, transform);
         StartCoroutine(SpawnMobs());
     }
 
@@ -36,7 +41,7 @@ public class EnemySpawner : MonoBehaviour
             var spawnAmount = Random.Range(_minEnemySpawnAmount, _maxEnemySpawnAmount);
             for (int i = 0; i < spawnAmount; i++)
             {
-                var enemy = _enemyFactory.Create();
+                var enemy = _poolObjects.Spawn();
                 var enemyPosition = SpawnAroundService.GetNextPosition(spawnAmount,
                     i, _playerController.transform.position, _spawnRadius);
                 var enemyData = _enemyData.enemies[Random.Range(0, _enemyData.enemies.Count)];
