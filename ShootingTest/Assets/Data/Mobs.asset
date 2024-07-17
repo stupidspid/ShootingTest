@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mobs:
   - icon: {fileID: 21300000, guid: e6ec7364ca280684c87e76558292a1f1, type: 3}
-    movementSpeed: 1
+    movementSpeed: 1.5

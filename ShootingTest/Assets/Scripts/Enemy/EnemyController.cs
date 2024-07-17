@@ -10,6 +10,7 @@ public class EnemyController : MonoBehaviour, IDamagable
 
     private PlayerController _playerController;
     private PoolObjects<EnemyController, EnemyFactory> _poolObjects;
+    private Coroutine _getDamageCoroutine;
     
     [Inject]
     private void Construct(PlayerController playerController, PoolObjects<EnemyController, EnemyFactory> poolObjects)
@@ -21,7 +22,12 @@ public class EnemyController : MonoBehaviour, IDamagable
     public int Health { get; private set; }
     public EnemyType EnemyType { get; private set; }
     public float MovementSpeed { get; private set; }
-    
+
+    private void OnEnable()
+    {
+        icon.color = Color.white;
+    }
+
     public void SetupEnemy(Enemy enemy, Vector3 position)
     {
         icon.sprite = enemy.icon;
@@ -39,12 +45,40 @@ public class EnemyController : MonoBehaviour, IDamagable
                 MovementSpeed * Time.deltaTime);
     }
 
+    private void SetupDamage(EnemyType enemyType)
+    {
+        switch (enemyType)
+        {
+            case EnemyType.DOG:
+                _getDamageCoroutine = StartCoroutine(GetDamageView());
+                break;
+            case EnemyType.MOUSE:
+                MovementSpeed /= 2f;
+                break;
+        }
+    }
+
     public void GetDamage(int damage)
     {
+        SetupDamage(EnemyType);
+        
         Health -= damage;
         if (Health <= 0)
         {
             _poolObjects.Despawn(this);
         }
+    }
+
+    private IEnumerator GetDamageView()
+    {
+        icon.color = Color.red;
+        yield return new WaitForSeconds(0.5f);
+        icon.color = Color.white;
+    }
+
+    private void OnDisable()
+    {
+        if(_getDamageCoroutine!=null)
+            StopCoroutine(_getDamageCoroutine);
     }
 }
