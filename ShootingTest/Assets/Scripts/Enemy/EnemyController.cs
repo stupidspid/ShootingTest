@@ -10,13 +10,17 @@ public class EnemyController : MonoBehaviour, IDamagable
 
     private PlayerController _playerController;
     private PoolObjects<EnemyController, EnemyFactory> _poolObjects;
+    private PoolObjects<BulletController, BulletFactory> _bulletPool;
     private Coroutine _getDamageCoroutine;
     
     [Inject]
-    private void Construct(PlayerController playerController, PoolObjects<EnemyController, EnemyFactory> poolObjects)
+    private void Construct(PlayerController playerController, 
+        PoolObjects<EnemyController, EnemyFactory> poolObjects,
+        PoolObjects<BulletController, BulletFactory> bulletPool)
     {
         _playerController = playerController;
         _poolObjects = poolObjects;
+        _bulletPool = bulletPool;
     }
     
     public int Health { get; private set; }
@@ -61,10 +65,11 @@ public class EnemyController : MonoBehaviour, IDamagable
     public void GetDamage(int damage)
     {
         SetupDamage(EnemyType);
-        
         Health -= damage;
+        _bulletPool.DespawnAll();
         if (Health <= 0)
         {
+            _bulletPool.DespawnAll();
             _poolObjects.Despawn(this);
         }
     }

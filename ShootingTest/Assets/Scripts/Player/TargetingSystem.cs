@@ -29,9 +29,12 @@ public class TargetingSystem : MonoBehaviour
     private void ShootToEnemy()
     {
         var targetEnemy = GetNearestTarget();
-        for(int i = 0; i < _gunController.BulletAmount; i++)
-            _poolObjects.Spawn();
-        _signalBus.Fire(new ShootToEnemySignal(targetEnemy));
+        if(targetEnemy == null) return;
+        for (int i = 0; i < _gunController.BulletAmount; i++)
+        {
+            var newBullet = _poolObjects.Spawn();
+            newBullet.TargetPosition = targetEnemy.position + new Vector3(0, i/2f, 0);
+        }
     }
 
     private Transform GetNearestTarget()
