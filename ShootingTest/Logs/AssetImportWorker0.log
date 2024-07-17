@@ -15,7 +15,7 @@ D:/Unity/ShootingTest/ShootingTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54147
+59283
 Successfully changed project path to: D:/Unity/ShootingTest/ShootingTest
 D:/Unity/ShootingTest/ShootingTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity/ShootingTest/ShootingTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 59.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,81 +63,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002877 seconds.
+Registered in 0.002944 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 46.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.409 seconds
 Domain Reload Profiling:
-	ReloadAssembly (409ms)
-		BeginReloadAssembly (41ms)
+	ReloadAssembly (410ms)
+		BeginReloadAssembly (37ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (307ms)
-			LoadAssemblies (40ms)
+		EndReloadAssembly (314ms)
+			LoadAssemblies (36ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (65ms)
+			SetupTypeCache (57ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (189ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (203ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (39ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
+				RefreshPlugins (80ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002738 seconds.
+Registered in 0.004019 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
+- Completed reload, in  0.876 seconds
 Domain Reload Profiling:
-	ReloadAssembly (795ms)
-		BeginReloadAssembly (179ms)
+	ReloadAssembly (876ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (116ms)
-		EndReloadAssembly (531ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (146ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (282ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (385ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,12 +146,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3538 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (57.6 KB). Loaded Objects now: 3997.
-Memory consumption went from 120.1 MB to 120.0 MB.
-Total: 2.418800 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.124400 ms MarkObjects: 1.934400 ms  DeleteObjects: 0.054800 ms)
+Unloading 5333 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (0.7 MB). Loaded Objects now: 5783.
+Memory consumption went from 209.9 MB to 209.1 MB.
+Total: 2.728300 ms (FindLiveObjects: 0.328900 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.078300 ms  DeleteObjects: 0.230400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,231 +166,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 500467.901169 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad5446482de51ede4e0422f8e458f28') in 0.022499 seconds 
+  Time since last request: 562727.199215 seconds.
+  path: Assets/Scripts/SpawnAroundService.cs
+  artifactKey: Guid(0a0a94de9858b2c46a69b9dbad8bf8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnAroundService.cs using Guid(0a0a94de9858b2c46a69b9dbad8bf8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f292e7e155e7ccaa139a1f1b86d9240f') in 0.026896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.477086 seconds.
+  path: Assets/Scripts/EnemySpawner.cs
+  artifactKey: Guid(9771fe7a53c85434794cdf02112fc5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemySpawner.cs using Guid(9771fe7a53c85434794cdf02112fc5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a3843c81b15e552873577dc3abff6e') in 0.005367 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004688 seconds.
+Registered in 0.003725 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 364.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.776 seconds
+- Completed reload, in  0.675 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1776ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (676ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1605ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
+			SetupTypeCache (183ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (1299ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (365ms)
-				BeforeProcessingInitializeOnLoad (603ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5253 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (6.2 MB). Loaded Objects now: 5645.
-Memory consumption went from 198.2 MB to 192.0 MB.
-Total: 4.253900 ms (FindLiveObjects: 0.278500 ms CreateObjectMapping: 0.084100 ms MarkObjects: 2.056700 ms  DeleteObjects: 1.834000 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2028.985220 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.012414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.627858 seconds.
-  path: Assets/Art
-  artifactKey: Guid(0b45a6c8cefc4ef4dbb09639e5fac1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art using Guid(0b45a6c8cefc4ef4dbb09639e5fac1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf6c244416b44869572bd24defe9334') in 0.004979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.611381 seconds.
-  path: Assets/Art/Default_Cat_top_view_view_from_above_without_surroundings_on_a_2_e59157c6-d42d-43a9-b574-ef6cf96b868a_0__1_-removebg-preview.png
-  artifactKey: Guid(e57aa35d2416f7d4a8bb8ab933b06824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Default_Cat_top_view_view_from_above_without_surroundings_on_a_2_e59157c6-d42d-43a9-b574-ef6cf96b868a_0__1_-removebg-preview.png using Guid(e57aa35d2416f7d4a8bb8ab933b06824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904fc51301a23f3a380646529cc9c866') in 0.075185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.869394 seconds.
-  path: Assets/Art/Default_single_human_top_view_view_from_above_without_surround_0_8f0e0228-cf39-4a21-b0ed-474ae0794c5c_0-removebg-preview.png
-  artifactKey: Guid(e6ec7364ca280684c87e76558292a1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Default_single_human_top_view_view_from_above_without_surround_0_8f0e0228-cf39-4a21-b0ed-474ae0794c5c_0-removebg-preview.png using Guid(e6ec7364ca280684c87e76558292a1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1494e5fb8df616f6df19030c2d200511') in 0.012942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.966603 seconds.
-  path: Assets/Art/Default_mouse_top_view_view_from_above_without_surroundings_on_1_c1fb8b5f-1d34-44f0-b9c8-4065eef7bdc5_0.png
-  artifactKey: Guid(f758342047c62fc4c92c92c21b831ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Default_mouse_top_view_view_from_above_without_surroundings_on_1_c1fb8b5f-1d34-44f0-b9c8-4065eef7bdc5_0.png using Guid(f758342047c62fc4c92c92c21b831ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f397ebbd37496d2efd4624d15e8c2e5') in 0.015176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.480222 seconds.
-  path: Assets/Art/Default_dog_top_view_view_from_above_without_surroundings_on_a_2_28314c64-6e4c-46e6-b109-a738ef1448b2_0.png
-  artifactKey: Guid(b67c23d318aaaee46830fad844b20890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Default_dog_top_view_view_from_above_without_surroundings_on_a_2_28314c64-6e4c-46e6-b109-a738ef1448b2_0.png using Guid(b67c23d318aaaee46830fad844b20890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a19e44ac31745ae3309c0449646371') in 0.014962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.037007 seconds.
-  path: Assets/Art/Cat.png
-  artifactKey: Guid(e57aa35d2416f7d4a8bb8ab933b06824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cat.png using Guid(e57aa35d2416f7d4a8bb8ab933b06824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcde2d0e5f0031eb7e14af4e6409cd40') in 0.012509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.286664 seconds.
-  path: Assets/Art/Dog.png
-  artifactKey: Guid(b67c23d318aaaee46830fad844b20890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Dog.png using Guid(b67c23d318aaaee46830fad844b20890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669a0985ba09dd4940f4aad74be0ac4d') in 0.012558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.922900 seconds.
-  path: Assets/Art/Mouse.png
-  artifactKey: Guid(f758342047c62fc4c92c92c21b831ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Mouse.png using Guid(f758342047c62fc4c92c92c21b831ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb6235d74e00065da88d38dcf420f73') in 0.012184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.116283 seconds.
-  path: Assets/Art/Human.png
-  artifactKey: Guid(e6ec7364ca280684c87e76558292a1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Human.png using Guid(e6ec7364ca280684c87e76558292a1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c608403f1cd8fcabecaf95ac3c965fd2') in 0.012076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 807.819506 seconds.
-  path: Assets/Art/kandinsky-download-1721145503851 (1).png
-  artifactKey: Guid(ff1db31aa4a84ba429140d8eb8e6d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/kandinsky-download-1721145503851 (1).png using Guid(ff1db31aa4a84ba429140d8eb8e6d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beda1636adacf5312a36c63903b33cac') in 0.014408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.543606 seconds.
-  path: Assets/Art/kandinsky-download-1721145061431-removebg-preview.png
-  artifactKey: Guid(ef671424716252144ab29e1f9407e9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/kandinsky-download-1721145061431-removebg-preview.png using Guid(ef671424716252144ab29e1f9407e9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76236eaa7fcdc1c9710f1b276457e00') in 0.014318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.326642 seconds.
-  path: Assets/Art/Gun.png
-  artifactKey: Guid(ef671424716252144ab29e1f9407e9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Gun.png using Guid(ef671424716252144ab29e1f9407e9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd884c1c36e1cf14be26c13f38afd860e') in 0.012430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.866985 seconds.
-  path: Assets/Art/ShotGun.png
-  artifactKey: Guid(ff1db31aa4a84ba429140d8eb8e6d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/ShotGun.png using Guid(ff1db31aa4a84ba429140d8eb8e6d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceefc522df9d1c8fe6835f897d5984b') in 0.013686 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002474 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.656 seconds
-Domain Reload Profiling:
-	ReloadAssembly (657ms)
-		BeginReloadAssembly (81ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (527ms)
-			LoadAssemblies (48ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (277ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5252 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (6.1 MB). Loaded Objects now: 5656.
-Memory consumption went from 203.1 MB to 197.0 MB.
-Total: 5.084600 ms (FindLiveObjects: 0.292000 ms CreateObjectMapping: 0.080900 ms MarkObjects: 2.453700 ms  DeleteObjects: 2.257500 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
+Unloading 5191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5786.
+Memory consumption went from 199.9 MB to 199.2 MB.
+Total: 2.443400 ms (FindLiveObjects: 0.277700 ms CreateObjectMapping: 0.156200 ms MarkObjects: 1.817900 ms  DeleteObjects: 0.191200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -401,68 +236,110 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002569 seconds.
+Registered in 0.002905 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
+- Completed reload, in  0.641 seconds
 Domain Reload Profiling:
-	ReloadAssembly (651ms)
+	ReloadAssembly (641ms)
 		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (527ms)
+		EndReloadAssembly (517ms)
 			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5789.
+Memory consumption went from 199.9 MB to 199.2 MB.
+Total: 2.616900 ms (FindLiveObjects: 0.280900 ms CreateObjectMapping: 0.136700 ms MarkObjects: 1.926100 ms  DeleteObjects: 0.272600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (651ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (518ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (277ms)
+			SetupLoadedEditorAssemblies (280ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadAttributes (178ms)
 				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5252 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (6.1 MB). Loaded Objects now: 5659.
-Memory consumption went from 203.1 MB to 197.0 MB.
-Total: 4.372100 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.139800 ms MarkObjects: 2.140700 ms  DeleteObjects: 1.822600 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
+Unloading 5191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5792.
+Memory consumption went from 199.9 MB to 199.2 MB.
+Total: 2.638300 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.141200 ms MarkObjects: 1.992000 ms  DeleteObjects: 0.229300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -471,297 +348,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002416 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.642 seconds
-Domain Reload Profiling:
-	ReloadAssembly (642ms)
-		BeginReloadAssembly (76ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (519ms)
-			LoadAssemblies (40ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (281ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5252 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (6.0 MB). Loaded Objects now: 5662.
-Memory consumption went from 203.0 MB to 197.0 MB.
-Total: 4.045400 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.077000 ms MarkObjects: 1.807100 ms  DeleteObjects: 1.883600 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 456.621089 seconds.
+  path: Assets/Scripts/EnemySpawner.cs
+  artifactKey: Guid(9771fe7a53c85434794cdf02112fc5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemySpawner.cs using Guid(9771fe7a53c85434794cdf02112fc5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1195322d593b37975353a8ae8fce9d6e') in 0.010092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.007857 seconds.
+  path: Assets/Scripts/EnemySpawner.cs
+  artifactKey: Guid(9771fe7a53c85434794cdf02112fc5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemySpawner.cs using Guid(9771fe7a53c85434794cdf02112fc5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0213cbb565d5aa0eded6614888e500ab') in 0.004799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.008133 seconds.
+  path: Assets/Scripts/EnemyController.cs
+  artifactKey: Guid(298d3db906baebe4082451d2355e9460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyController.cs using Guid(298d3db906baebe4082451d2355e9460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd276a16fc21be3594a0c0ec2bca67bbe') in 0.004855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 939.427559 seconds.
+  path: Assets/Scripts/EnemyController.cs
+  artifactKey: Guid(298d3db906baebe4082451d2355e9460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyController.cs using Guid(298d3db906baebe4082451d2355e9460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc1e5107dac85a0a9362e72b906671b') in 0.004460 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002491 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
-Domain Reload Profiling:
-	ReloadAssembly (650ms)
-		BeginReloadAssembly (79ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (524ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (281ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5252 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (6.1 MB). Loaded Objects now: 5665.
-Memory consumption went from 203.1 MB to 197.0 MB.
-Total: 4.100300 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.895400 ms  DeleteObjects: 1.845000 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003078 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
-Domain Reload Profiling:
-	ReloadAssembly (754ms)
-		BeginReloadAssembly (87ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (611ms)
-			LoadAssemblies (48ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (331ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5252 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (6.1 MB). Loaded Objects now: 5668.
-Memory consumption went from 203.1 MB to 197.1 MB.
-Total: 5.254600 ms (FindLiveObjects: 0.460300 ms CreateObjectMapping: 0.119100 ms MarkObjects: 2.400100 ms  DeleteObjects: 2.274500 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005247 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
-Domain Reload Profiling:
-	ReloadAssembly (677ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (520ms)
-			LoadAssemblies (56ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (277ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5252 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (6.1 MB). Loaded Objects now: 5671.
-Memory consumption went from 203.1 MB to 197.1 MB.
-Total: 5.596400 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.081900 ms MarkObjects: 2.729100 ms  DeleteObjects: 2.502600 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002545 seconds.
+Registered in 0.004684 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -769,60 +382,45 @@ Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.631 seconds
+- Completed reload, in  0.732 seconds
 Domain Reload Profiling:
-	ReloadAssembly (632ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (732ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (507ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (274ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
-
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5252 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (6.0 MB). Loaded Objects now: 5674.
-Memory consumption went from 203.1 MB to 197.1 MB.
-Total: 4.334400 ms (FindLiveObjects: 0.297400 ms CreateObjectMapping: 0.078300 ms MarkObjects: 2.082800 ms  DeleteObjects: 1.875000 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004b] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:390 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:548 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in D:\Unity\ShootingTest\ShootingTest\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Runtime\Data\UniversalRenderPipelineAsset.cs:1059 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 390)
+Unloading 5192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5796.
+Memory consumption went from 199.9 MB to 199.3 MB.
+Total: 2.876900 ms (FindLiveObjects: 0.337100 ms CreateObjectMapping: 0.191200 ms MarkObjects: 2.096200 ms  DeleteObjects: 0.251700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -832,107 +430,310 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 367.329271 seconds.
-  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png
-  artifactKey: Guid(7927b9032dc11e841af3f9a1353d7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png using Guid(7927b9032dc11e841af3f9a1353d7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65e280e68d23f070c0911252aaff325') in 0.052708 seconds 
+  Time since last request: 487.561466 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e7e1df7b4c81ffd44bcb021b31ae2c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e7e1df7b4c81ffd44bcb021b31ae2c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0024fd0a233126e309fc56bdb5c34c4') in 0.176539 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png
-  artifactKey: Guid(9332cf0d233636a40a024382720294a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png using Guid(9332cf0d233636a40a024382720294a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d36d682145c57fde54bbc102bf8a19c') in 0.019245 seconds 
+  Time since last request: 2.251052 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e7e1df7b4c81ffd44bcb021b31ae2c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e7e1df7b4c81ffd44bcb021b31ae2c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cee15d99b8a786bc30dbe66b2f84218') in 0.006745 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png
-  artifactKey: Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png using Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab896ab548b8f7fdffeb7a455a180dd8') in 0.017775 seconds 
+  Time since last request: 7.706962 seconds.
+  path: Assets/Data/Enemies.asset
+  artifactKey: Guid(39fb840f18de0ad40bed74e2f9d0f534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Enemies.asset using Guid(39fb840f18de0ad40bed74e2f9d0f534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11cfd705c15c63e4fd22fb63ecbc687') in 0.016534 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Domain Reload Profiling:
+	ReloadAssembly (786ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5850.
+Memory consumption went from 207.0 MB to 206.3 MB.
+Total: 2.597000 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.131500 ms MarkObjects: 1.960900 ms  DeleteObjects: 0.236300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002441 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Domain Reload Profiling:
+	ReloadAssembly (635ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (505ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5853.
+Memory consumption went from 207.0 MB to 206.4 MB.
+Total: 2.584100 ms (FindLiveObjects: 0.314700 ms CreateObjectMapping: 0.110000 ms MarkObjects: 1.935100 ms  DeleteObjects: 0.223300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png
-  artifactKey: Guid(ab6db91373811284caeba2e9472fa9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png using Guid(ab6db91373811284caeba2e9472fa9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a367e41d0f7c80ee81ae9a09f8eb5f14') in 0.016699 seconds 
+  Time since last request: 281.521743 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e7e1df7b4c81ffd44bcb021b31ae2c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e7e1df7b4c81ffd44bcb021b31ae2c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c032b8f40d81a13725f1f3e948115bc') in 0.093350 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconinviteusers@2x.png
-  artifactKey: Guid(b43651fb085b38445ade3f9de3ab0636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconinviteusers@2x.png using Guid(b43651fb085b38445ade3f9de3ab0636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6736bcc69281552de912dc5de9cf7b8f') in 0.011279 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002444 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (651ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5897.
+Memory consumption went from 207.1 MB to 206.4 MB.
+Total: 2.632400 ms (FindLiveObjects: 0.292900 ms CreateObjectMapping: 0.164400 ms MarkObjects: 1.932400 ms  DeleteObjects: 0.242200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconretainedoverlay@2x.png
-  artifactKey: Guid(a01087ce1455c7e4c8f2410c26afcfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconretainedoverlay@2x.png using Guid(a01087ce1455c7e4c8f2410c26afcfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80987f304afa8c2ca3822cfb10941c51') in 0.012186 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Domain Reload Profiling:
+	ReloadAssembly (657ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (529ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5900.
+Memory consumption went from 207.1 MB to 206.4 MB.
+Total: 2.647400 ms (FindLiveObjects: 0.299500 ms CreateObjectMapping: 0.147600 ms MarkObjects: 1.970800 ms  DeleteObjects: 0.229000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png
-  artifactKey: Guid(6304ad603f150b649b764d29bbc2a87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png using Guid(6304ad603f150b649b764d29bbc2a87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608d8b1a82f88b3b86bcfd18265bd1d6') in 0.020041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png
-  artifactKey: Guid(f054197ef28924b4986cbd91de2ab054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png using Guid(f054197ef28924b4986cbd91de2ab054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8865aee22c69bf0742f2531a08812cf7') in 0.018207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlock@2x.png
-  artifactKey: Guid(ba96945b6a1b743579931a87e98041fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlock@2x.png using Guid(ba96945b6a1b743579931a87e98041fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a882cee78d93a18c1f5ca13eff51fd') in 0.014354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.582052 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlock@2x.png
-  artifactKey: Guid(55747841a2e3b47dab36dc8d5e0dc4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlock@2x.png using Guid(55747841a2e3b47dab36dc8d5e0dc4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a221d59f9bfadf521363e0b2a295ecc1') in 0.012823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png
-  artifactKey: Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png using Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b067dec03d147dbc268a06e21eae1351') in 0.014798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png
-  artifactKey: Guid(a6c56474666ce0647bdb766e9b4764b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png using Guid(a6c56474666ce0647bdb766e9b4764b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d42c2b7adf11bde6eee2eaf5bdf32c2') in 0.015175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Joystick Pack/Sprites/Handles/Handle_Plain.png
-  artifactKey: Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Plain.png using Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182f9e4152cf8a6c046f65f6f5ebcd05') in 0.013431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016669 seconds.
-  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png
-  artifactKey: Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png using Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bdb681e524f51109d44b8f02c28cd1') in 0.019912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconinviteusers@2x.png
-  artifactKey: Guid(2b9bf8ec5d54fe249ac9e20979ccd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconinviteusers@2x.png using Guid(2b9bf8ec5d54fe249ac9e20979ccd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000722de5ad1e3f99aba5a730f949615') in 0.014665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png
-  artifactKey: Guid(2a1f3cba20f3e11498474a705db12fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png using Guid(2a1f3cba20f3e11498474a705db12fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1b4f9531b48ad32a248b0e287e5c40') in 0.020033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png
-  artifactKey: Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png using Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d709c9df876b5705311a5ce10d207b0') in 0.022495 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003232 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Domain Reload Profiling:
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5903.
+Memory consumption went from 207.1 MB to 206.4 MB.
+Total: 2.695800 ms (FindLiveObjects: 0.299500 ms CreateObjectMapping: 0.144300 ms MarkObjects: 2.027500 ms  DeleteObjects: 0.223900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

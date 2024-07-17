@@ -16,6 +16,8 @@ MonoBehaviour:
   - icon: {fileID: 21300000, guid: b67c23d318aaaee46830fad844b20890, type: 3}
     health: 100
     enemyType: 1
+    movementSpeed: 0.5
   - icon: {fileID: 21300000, guid: f758342047c62fc4c92c92c21b831ef0, type: 3}
     health: 50
     enemyType: 2
+    movementSpeed: 1

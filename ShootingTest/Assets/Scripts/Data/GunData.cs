@@ -1,12 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "CustomData/Gun", fileName = "Gun")]
 public class GunData : ScriptableObject
 {
-    [SerializeField] private List<Gun> guns = new();
+    public List<Gun> guns = new();
+
+    public Gun GetGunByType(GunType gunType)
+    {
+        return guns.FirstOrDefault(x => x.gunType == gunType);
+    }
 }
 
 [Serializable]
